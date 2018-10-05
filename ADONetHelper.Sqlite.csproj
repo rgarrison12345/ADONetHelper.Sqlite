@@ -2,9 +2,9 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net46;net451;net45;net40;net20;</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/rgarrison12345/ADONetHelper/blob/master/LICENSE.md</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/rgarrison12345/ADONetHelper/tree/master/ADONetHelper.Sqlite</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper/tree/master/ADONetHelper.Sqlite</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/rgarrison12345/ADONetHelper.Sqlite/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/rgarrison12345/ADONetHelper.Sqlite</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper.Sqlite.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Version>1.6.0</Version>
