@@ -7,9 +7,9 @@
     <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper.Sqlite.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.6.2</Version>
+    <Version>1.6.3</Version>
     <PackageTags>Sqlite SystemData.Sqlite ORM ADO.NET ADO SQL .NET Database RDBMS Generic DAL ANSI</PackageTags>
-    <Copyright>Copyright © Robert Garrison 2018</Copyright>
+    <Copyright>Copyright © Robert Garrison 2019</Copyright>
     <Authors>Robert Garrison</Authors>
     <Company>Robert Garrison</Company>
     <IncludeSource>true</IncludeSource>
@@ -20,7 +20,7 @@
     <IncludeSource>true</IncludeSource>
     <IncludeSymbols>true</IncludeSymbols>
     <Description>Extends ADONetHelper library to Sqlite</Description>
-    <PackageReleaseNotes>Updating to System.Data.SQLite 1.0.111</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating to System.Data.SQLite 1.0.112 and ADONetHelper 3.4.0</PackageReleaseNotes>
     <AssemblyName>ADONetHelper.Sqlite</AssemblyName>
     <RootNamespace>ADONetHelper.Sqlite</RootNamespace>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\ADONetHelper.Sqlite.xml</DocumentationFile>
@@ -31,8 +31,8 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
-    <PackageReference Include="System.Data.SQLite" Version="1.0.111" />
-    <PackageReference Include="ADONetHelper" version="3.2.1" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.112" />
+    <PackageReference Include="ADONetHelper" version="3.4.0" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <DebugSymbols>true</DebugSymbols>
