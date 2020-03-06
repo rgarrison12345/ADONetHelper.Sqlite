@@ -1,6 +1,6 @@
 ﻿#region Licenses
 /*MIT License
-Copyright(c) 2019
+Copyright(c) 2020
 Robert Garrison
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.*/
 #endregion
 #region Using Statements
+using ADONetHelper.Core;
 using System.Data;
 using System.Data.SQLite;
 #endregion
@@ -101,7 +102,7 @@ namespace ADONetHelper.Sqlite
             using (SQLiteCommand command = new SQLiteCommand(query, this.Connection))
             {
                 //Add in any parameters
-                command.Parameters.AddRange(this.ExecuteSQL.Parameters.ToArray());
+                command.Parameters.AddRange(ExecuteSQL.Parameters.ToArray());
                 command.VerifyOnly();
 
                 //Clear the parameters

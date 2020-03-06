@@ -1,15 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net46;net451;net45;net40;net20;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/rgarrison12345/ADONetHelper.Sqlite/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/rgarrison12345/ADONetHelper.Sqlite</PackageProjectUrl>
     <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper.Sqlite.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.6.3</Version>
+    <Version>1.7.0</Version>
     <PackageTags>Sqlite SystemData.Sqlite ORM ADO.NET ADO SQL .NET Database RDBMS Generic DAL ANSI</PackageTags>
-    <Copyright>Copyright © Robert Garrison 2019</Copyright>
+    <Copyright>Copyright © Robert Garrison 2020</Copyright>
     <Authors>Robert Garrison</Authors>
     <Company>Robert Garrison</Company>
     <IncludeSource>true</IncludeSource>
@@ -20,7 +19,7 @@
     <IncludeSource>true</IncludeSource>
     <IncludeSymbols>true</IncludeSymbols>
     <Description>Extends ADONetHelper library to Sqlite</Description>
-    <PackageReleaseNotes>Updating to System.Data.SQLite 1.0.112 and ADONetHelper 3.4.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating to ADONetHelper 4.1.0</PackageReleaseNotes>
     <AssemblyName>ADONetHelper.Sqlite</AssemblyName>
     <RootNamespace>ADONetHelper.Sqlite</RootNamespace>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\ADONetHelper.Sqlite.xml</DocumentationFile>
@@ -28,11 +27,12 @@
     <DefineConstants>TRACE;</DefineConstants>
     <Prefer32Bit>false</Prefer32Bit>
     <OutputType>Library</OutputType>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
     <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.112" />
-    <PackageReference Include="ADONetHelper" version="3.4.0" />
+    <PackageReference Include="ADONetHelper" version="4.1.0" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <DebugSymbols>true</DebugSymbols>
